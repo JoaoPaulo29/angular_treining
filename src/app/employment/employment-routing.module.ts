@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
 import { EmploymentComponent } from './employment/employment.component';
 
 const routes: Routes = [
-  {path: '' , component: EmploymentComponent}
+  {path: '', component: EmploymentComponent}
+
 ];
 
 @NgModule({
